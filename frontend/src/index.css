@@ -1,0 +1,24 @@
+:root {
+  --bg: #0f1613;
+  --panel: #141d19;
+  --line: #24322c;
+  --text: #e6ede9;
+  --text-dim: #93a39a;
+  --accent: #7fd88f;
+  --accent-dim: #3f6b48;
+  --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+button {
+  font-family: var(--sans);
+}
